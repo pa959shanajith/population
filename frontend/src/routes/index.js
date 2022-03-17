@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 import Async from "react-code-splitting";
 import layout from "./layout";
@@ -16,6 +16,7 @@ class Routes extends Component {
   render() {
     return (
       <Switch>
+        <Route exact path="/" render={() => <Redirect to="/login" />} />
         <ProtectedRoute path="/home" component={layout(home)} />
         <RouteLogin path="/login" component={login} />
       </Switch>
