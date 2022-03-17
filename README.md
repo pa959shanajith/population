@@ -2,38 +2,45 @@
 project about country population
 
 #frontend
-open folder => cd ./frontend
-run the command => npm i
-start the server => npm start
+open folder =><b> cd ./frontend </b> <br>
 
-note: run the frontend server on port 3000 if you want to change the port please change the port address in api .env files also
+run the command => <b>npm i</b> <br>
+
+start the server => <b> npm start </b> <br>
+ 
+note: <b> run the frontend server on port 3000 if you want to change the port please change the port address in api .env files also </b>
 
 #backend / api
-create a local mongodb database with the name of Country
-create two collections in it name as country_population and users
+create a local mongodb database with the name of <b>Country</b> <br>
 
-update your local mongodb uri in .env file field called MONGO_URI
+create two collections in it name as <b>country_population</b> and <b>users</b><br>
 
-open the api folder => cd ./api
-run the command => npm i
-install nodemon locally
+update your local mongodb uri in <b>.env</b> file field called <b>MONGO_URI</b> <br>
 
-run api server => nodemon
+open the api folder => <b>cd ./api</b><br>
+
+run the command => <b> npm i</b><br>
+install nodemon locally <br>
+
+run api server => <b>nodemon</b> <br>
 
 #create new user
-use postman to register new user use below mentioned Api Config
+use postman to register new user use below mentioned Api Config <br>
 
-method:POST
-url:http://localhost:8080/api/user/register
-JSON body:{
-    "emailId":"demo@gmail.com",
-    "password":"demo1234",
-    "name":"demo"
-}
-make sure user getting registered in Mongodb users collections
+<b>
+method:POST <br>
+url: http://localhost:8080/api/user/register <br>
+JSON body: { <br>
+    "emailId":"demo@gmail.com",<br>
+    "password":"demo1234",<br>
+    "name":"demo"<br>
+}<br>
+</b>
+make sure user getting registered in Mongodb <b>users</b> collections
 
-open browser enter URL 'http://localhost:3000/#/login' for login page use credentials username : demo@gmail.com
-password : demo1234
+open browser enter URL <link> 'http://localhost:3000/#/login' </link> for login page use credentials <br>
+<b>username : demo@gmail.com</b> <br>
+<b> password : demo1234 </b> <br>
 
 done :)
 
