@@ -1,0 +1,11 @@
+// Add ant design style
+@import 'node_modules/antd/dist/antd.min';
+
+// Google fonts
+@import url(https://fonts.googleapis.com/css?family=Poppins:400italic,600italic,400,600);
+
+// Add material icon as default font icon
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+@import './general.scss';
+@import './layout.scss';

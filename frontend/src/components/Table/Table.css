@@ -1,0 +1,8 @@
+.table_header {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+}
+thead > tr > th {
+    background-color: #8f8f8f !important;
+  }

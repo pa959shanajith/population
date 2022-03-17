@@ -1,0 +1,38 @@
+/**
+ *  Table of Content
+ *
+ *  # Menu
+ *  # Scrollbar
+ */
+
+
+/**
+ *  # Menu
+ */
+.ant-menu {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 64px);
+  &:not(.ant-menu-horizontal) {
+    .ant-menu-item-selected:after {
+      border-width: 4px;
+    }
+  }
+}
+
+/**
+ *  # Scrollbar
+ */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(#1890ff, .5);
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1890ff;
+}

@@ -1,0 +1,51 @@
+/**
+ *  Table of Content
+ *
+ *  # Header
+ *  # Sidebar
+ *  # Content
+ */
+
+
+/**
+ *  # Header
+ */
+.ant-layout-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 0 32px;
+  box-shadow: 10px 0 10px 5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 10px 0 10px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 10px 0 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+/**
+ *  # Sidebar
+ */
+.ant-layout-sider {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 64px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}
+
+/**
+ *  # Content
+ */
+.ant-layout-content {
+  padding: 32px;
+}
