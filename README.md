@@ -1,7 +1,7 @@
 # population
 project about country population
 
-#frontend
+<b>#frontend </b> <br>
 open folder =><b> cd ./frontend </b> <br>
 
 run the command => <b>npm i</b> <br>
@@ -10,7 +10,7 @@ start the server => <b> npm start </b> <br>
  
 note: <b> run the frontend server on port 3000 if you want to change the port please change the port address in api .env files also </b>
 
-#backend / api
+ <b>#backend / api </b><br>
 create a local mongodb database with the name of <b>Country</b> <br>
 
 create two collections in it name as <b>country_population</b> and <b>users</b><br>
@@ -24,7 +24,7 @@ install nodemon locally <br>
 
 run api server => <b>nodemon</b> <br>
 
-#create new user
+<b>#create new user </b><br>
 use postman to register new user use below mentioned Api Config <br>
 
 <b>
