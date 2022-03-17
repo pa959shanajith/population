@@ -13,6 +13,8 @@ note: <b> run the frontend server on port 3000 if you want to change the port pl
  <b>#backend / api </b><br>
 create a local mongodb database with the name of <b>Country</b> <br>
 
+import <b>population.json</b> file into mongodb <b>country_population</b> collection <br>
+
 create two collections in it name as <b>country_population</b> and <b>users</b><br>
 
 update your local mongodb uri in <b>.env</b> file field called <b>MONGO_URI</b> <br>
@@ -42,7 +44,7 @@ open browser enter URL <link> 'http://localhost:3000/#/login' </link> for login 
 <b>username : demo@gmail.com</b> <br>
 <b> password : demo1234 </b> <br>
 
-done :)
+Have a great day :)
 
 
 
